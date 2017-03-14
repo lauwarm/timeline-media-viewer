@@ -1,0 +1,46 @@
+{
+  "name": "timeline-media-viewer",
+  "version": "0.1.0",
+  "description": "nwjs app to view social media files",
+  "author": "lauwarm <lauwarm@mailbox.org>",
+  "license": "GPL-3.0",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/lauwarm/timeline-media-viewer"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/lauwarm/timeline-media-viewer/issues"
+  },
+  "keywords": [
+    "nwjs",
+    "social media",
+    "images",
+    "twitter",
+    "tumblr"
+  ],
+  "scripts": {
+    "test": "scripts/test",
+    "dev": "scripts/dev",
+    "start": "scripts/start"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "clipboard-js": "^0.3.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4",
+    "tumblr.js": "^1.1.1",
+    "twitter": "^1.3.0",
+    "zooming": "^0.8.1"
+  },
+  "private": true,
+  "window": {
+    "width": 1280,
+    "height": 720,
+    "icon": "./img/app-icon.png"
+  }
+}

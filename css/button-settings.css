@@ -1,0 +1,36 @@
+.settings {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	z-index: 9;
+	opacity: 0.75;
+	border: 0px;
+	-webkit-border-radius: 50px;
+	margin-left: -12px;
+	margin-bottom: -12px;
+	-webkit-transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white;
+}
+
+.settings:hover {
+	margin-left: -5px;
+	margin-bottom: -5px;
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+@-webkit-keyframes pulsate {
+	0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
