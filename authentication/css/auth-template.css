@@ -1,0 +1,64 @@
+body {
+  background-color: lightgrey;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.container {
+  margin: 25px;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* twitter color scheme */
+.btn-twitter {
+  background-color: rgb(85, 172, 238);
+}
+
+/* tumblr color scheme */
+.btn-tumblr {
+  background-color: rgb(50, 80, 109);
+}
+
+/* instagram color scheme */
+.btn-instagram {
+  background-color: rgb(81, 127, 164);
+}
+
+/* flickr color scheme */
+.btn-flickr {
+  background-color: rgb(255, 0, 132);
+}
+
+/* facebook color scheme */
+.btn-facebook {
+  background-color: rgb(59, 89, 152);
+}
+
+/* googleplus color scheme */
+.btn-googleplus {
+  background-color: rgb(221, 75, 57);
+}
+
+/* vk color scheme */
+.btn-vk {
+  background-color: rgb(69, 102, 142);
+}
+
+/* youtube color scheme */
+.btn-youtube {
+  background-color: rgb(187, 0, 0);
+}
+
+/* vimeo color scheme */
+.btn-vimeo {
+  background-color: rgb(170, 212, 80);
+}
