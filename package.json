@@ -1,6 +1,6 @@
 {
   "name": "timeline-media-viewer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "nwjs app to view social media files",
   "author": "lauwarm <lauwarm@mailbox.org>",
   "license": "GPL-3.0",
@@ -42,5 +42,8 @@
     "width": 1280,
     "height": 720,
     "icon": "./img/app-icon.png"
+  },
+  "devDependencies": {
+    "nw-builder": "^3.2.0"
   }
 }
