@@ -1,4 +1,5 @@
 var twitter = require('twitter');
+var configFile = require('../../config/_config.js')
 
 var twitterEndpoints = {
   timeline: 'https://api.twitter.com/1.1/statuses/home_timeline',

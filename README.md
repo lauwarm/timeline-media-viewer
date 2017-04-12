@@ -8,21 +8,19 @@ this is a nwjs app to view media files (images, gifs, ...) from social media ser
 + download [nwjs] (http://nwjs.io/)
 + download and install [node.js] (https://nodejs.org/en/)
 + download and install [yarn] (http://yarnpkg.com/)
-+ navigate to the project folder and `yarn` all dependent modules
++ open a terminal, navigate to the project folder and `yarn` all dependent modules
 
 ## packed release
-+ download the release (hosted on [mega.nz] (https://mega.nz/))
-    * [Releases] (https://gitlab.com/lauwarm/timeline-media-viewer/tags)
-+ unpack
++ soonTM
 
 ## oauth credentials
 + register an app with the social media service of your choice
-+ get the consumer key, consumer secret, access token, access token secret
++ get the consumer key and consumer secret
 
 ## final phase
 + navigate to the project folder
-+ start nw
-+ insert oauth credentials
++ edit the `config/_config.js` file with your tokens
++ start the app `path/to/nw /path/to/app/`
 + :cake:
 
 # keyboard shortcuts
@@ -35,5 +33,9 @@ this is a nwjs app to view media files (images, gifs, ...) from social media ser
 
 # miscellaneous
 + [issues] (https://gitlab.com/lauwarm/timeline-media-viewer/issues)
-+ [milestones and whats comming next] (https://gitlab.com/lauwarm/timeline-media-viewer/milestones)
++ [milestones] (https://gitlab.com/lauwarm/timeline-media-viewer/milestones)
 + social media service of your choice means twitter/tumblr only at the moment :sweat:
+
+# notes
++ due to the fact that one can read the oauth secret keys i cannot provide you with my own
++ oauth2 should make it possible to implement sign-in-buttons

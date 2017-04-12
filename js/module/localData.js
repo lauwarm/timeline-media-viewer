@@ -25,8 +25,7 @@ var setLocalStorageTwitter = function() {
 var checkLocalStorageTwitter = function() {
   var checkTwitter = false;
 
-  if(localStorage.getItem('username-twitter') !== null &&
-    localStorage.getItem('oauth-consumer-key-twitter') !== null &&
+  if(localStorage.getItem('oauth-consumer-key-twitter') !== null &&
     localStorage.getItem('oauth-consumer-secret-twitter') !== null &&
     localStorage.getItem('oauth-access-token-twitter') !== null &&
     localStorage.getItem('oauth-access-token-secret-twitter') !== null) {
